@@ -1,6 +1,6 @@
 <template>
   <ion-page>
-    <ion-header :translucent="true">
+    <ion-header :translucent="true" mode="ios">
       <ion-toolbar>
         <ion-title>Inicio</ion-title>
       </ion-toolbar>
@@ -8,7 +8,7 @@
 
     <ion-content :fullscreen="true">
       <ion-row>
-        <ion-col size="12" class="center">
+        <ion-col size="12" size-md="6" class="center">
           <img
             class="logo-utp"
             src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.utparral.edu.mx%2Flogotipos%2Flogo%2520utp%2520trazos%2520fondos%2520obscuros.png&f=1&nofb=1"
@@ -16,10 +16,7 @@
             srcset=""
           />
         </ion-col>
-      </ion-row>
-
-      <ion-row>
-        <ion-col size="12">
+        <ion-col size="12" size-md="6">
           <h1 style="text-align: center;">
             Redes Inteligentes y Ciberseguridad
           </h1>
@@ -286,6 +283,12 @@
         </ion-col>
       </ion-row>
     </ion-content>
+
+    <ion-footer class="ion-no-border">
+      <ion-toolbar>
+        <ion-title>UTP ©{{ year }}</ion-title>
+      </ion-toolbar>
+    </ion-footer>
   </ion-page>
 </template>
 
@@ -300,9 +303,6 @@ import {
   IonCardContent,
   IonCardHeader,
   IonCardTitle,
-  IonCardSubtitle,
-  IonSegment,
-  IonSegmentButton,
   IonItem,
 } from "@ionic/vue";
 import { defineComponent } from "vue";
@@ -324,6 +324,7 @@ export default defineComponent({
   data() {
     return {
       segment: "escenariosActuacion",
+      year: new Date().getFullYear(),
     };
   },
 });
