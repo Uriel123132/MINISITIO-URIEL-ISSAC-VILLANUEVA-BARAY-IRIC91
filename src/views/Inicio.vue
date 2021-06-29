@@ -27,7 +27,7 @@
       </ion-row>
 
       <ion-row>
-        <ion-col size="12">
+        <ion-col size="12" size-md="6">
           <ion-card>
             <ion-card-header>
               <ion-card-title>Competencias Profesionales</ion-card-title>
@@ -41,7 +41,7 @@
             </ion-card-header>
           </ion-card>
         </ion-col>
-        <ion-col size="12">
+        <ion-col size="12" size-md="6">
           <ion-card>
             <ion-card-header>
               <ion-card-title>Competencias Genéricas</ion-card-title>
@@ -94,7 +94,7 @@
             desenvolverse en:
           </h4>
         </ion-col>
-        <ion-col size="12">
+        <ion-col size="12" size-md="3">
           <ion-card>
             <ion-card-content>
               Empresas públicas y privadas dedicadas al desarrollo y consultoría
@@ -102,7 +102,7 @@
             </ion-card-content>
           </ion-card>
         </ion-col>
-        <ion-col size="12">
+        <ion-col size="12" size-md="3">
           <ion-card>
             <ion-card-content>
               Empresas dedicadas a la venta e integración de servicios
@@ -110,7 +110,7 @@
             </ion-card-content>
           </ion-card>
         </ion-col>
-        <ion-col size="12">
+        <ion-col size="12" size-md="3">
           <ion-card>
             <ion-card-content>
               Empresas privadas de la industria de TI, enfocadas en el
@@ -119,7 +119,7 @@
             </ion-card-content>
           </ion-card>
         </ion-col>
-        <ion-col size="12">
+        <ion-col size="12" size-md="3">
           <ion-card>
             <ion-card-content>
               En cualquier empresa que requiera de un la implementación y
@@ -128,7 +128,7 @@
             </ion-card-content>
           </ion-card>
         </ion-col>
-        <ion-col size="12">
+        <ion-col size="12" size-md="3">
           <ion-card>
             <ion-card-content>
               Empresas transnacionales dedicadas a la venta se servicios
@@ -136,7 +136,7 @@
             </ion-card-content>
           </ion-card>
         </ion-col>
-        <ion-col size="12">
+        <ion-col size="12" size-md="3">
           <ion-card>
             <ion-card-content>
               Empresas públicas y privadas dedicadas al desarrollo y consultoría
@@ -144,7 +144,7 @@
             </ion-card-content>
           </ion-card>
         </ion-col>
-        <ion-col size="12">
+        <ion-col size="12" size-md="3">
           <ion-card>
             <ion-card-content>
               Empresas extranjeras dedicadas a la consultoría e implementación
@@ -152,7 +152,7 @@
             </ion-card-content>
           </ion-card>
         </ion-col>
-        <ion-col size="12">
+        <ion-col size="12" size-md="3">
           <ion-card>
             <ion-card-content>
               En empresas públicas y privadas que manejen sistemas y
@@ -160,7 +160,7 @@
             </ion-card-content>
           </ion-card>
         </ion-col>
-        <ion-col size="12">
+        <ion-col size="12" size-md="3">
           <ion-card>
             <ion-card-content>
               Empresas públicas y privadas en proceso de migración, evolución y
@@ -168,7 +168,7 @@
             </ion-card-content>
           </ion-card>
         </ion-col>
-        <ion-col size="12">
+        <ion-col size="12" size-md="3">
           <ion-card>
             <ion-card-content>
               Empresas emergentes dedicadas a la innovación y el desarrollo
@@ -176,7 +176,7 @@
             </ion-card-content>
           </ion-card>
         </ion-col>
-        <ion-col size="12">
+        <ion-col size="12" size-md="3">
           <ion-card>
             <ion-card-content>
               En organizaciones públicas y privadas que cuenten con estrategias
@@ -184,7 +184,7 @@
             </ion-card-content>
           </ion-card>
         </ion-col>
-        <ion-col size="12">
+        <ion-col size="12" size-md="3">
           <ion-card>
             <ion-card-content>
               De forma independiente mediante consultorías de bienes y
@@ -206,63 +206,63 @@
             desenvolverse en:
           </h4>
         </ion-col>
-        <ion-col size="12">
+        <ion-col size="12" size-md="3">
           <ion-card>
             <ion-card-content>
               Site Reliability Engineering
             </ion-card-content>
           </ion-card>
         </ion-col>
-        <ion-col size="12">
+        <ion-col size="12" size-md="3">
           <ion-card>
             <ion-card-content>
               ngeniero de cómputo en la nube
             </ion-card-content>
           </ion-card>
         </ion-col>
-        <ion-col size="12">
+        <ion-col size="12" size-md="3">
           <ion-card>
             <ion-card-content>
               DevOps Engineer
             </ion-card-content>
           </ion-card>
         </ion-col>
-        <ion-col size="12">
+        <ion-col size="12" size-md="3">
           <ion-card>
             <ion-card-content>
               Especialista en ciberseguridad
             </ion-card-content>
           </ion-card>
         </ion-col>
-        <ion-col size="12">
+        <ion-col size="12" size-md="3">
           <ion-card>
             <ion-card-content>
               Data Protection Officer
             </ion-card-content>
           </ion-card>
         </ion-col>
-        <ion-col size="12">
+        <ion-col size="12" size-md="3">
           <ion-card>
             <ion-card-content>
               Integrador de soluciones de infraestructura de redes inteligentes
             </ion-card-content>
           </ion-card>
         </ion-col>
-        <ion-col size="12">
+        <ion-col size="12" size-md="3">
           <ion-card>
             <ion-card-content>
               Administrador de Sistemas
             </ion-card-content>
           </ion-card>
         </ion-col>
-        <ion-col size="12">
+        <ion-col size="12" size-md="3">
           <ion-card>
             <ion-card-content>
               Auditor de TI
             </ion-card-content>
           </ion-card>
         </ion-col>
-        <ion-col size="12">
+        <ion-col size="12" size-md="3">
           <ion-card>
             <ion-card-content>
               Líder de proyectos de infraestructura de redes inteligentes y
@@ -270,14 +270,14 @@
             </ion-card-content>
           </ion-card>
         </ion-col>
-        <ion-col size="12">
+        <ion-col size="12" size-md="3">
           <ion-card>
             <ion-card-content>
               Administrador de redes
             </ion-card-content>
           </ion-card>
         </ion-col>
-        <ion-col size="12">
+        <ion-col size="12" size-md="3">
           <ion-card>
             <ion-card-content>
               Analista de Ciberseguridad
